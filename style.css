@@ -1,0 +1,114 @@
+:root{
+    --branco-principal: #002351;
+    --cinza-principal: #47e3af;
+    --botao: #ff8730;
+    --cor-de-fundo: #ffca37;
+    --fonte-principal: "Roboto Slab";
+    --botao-efeito: #ff7525;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.princs{
+    background-image: url(img/background.png);
+    background-position-x: 800px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+.conts{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.conts_bot{
+    background-color: var(--botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.conts_bot:hover{
+    background-color: var(--botao-efeito);
+    color: var(--cor-de-fundo);
+}
+
+.bot_sec{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    margin-top: 1em;
+}
+
+.conts_img{
+    margin: 1em 0 2em 0;
+}
+
+.conts_caixa{
+    margin: 0 6em;
+}
+
+.sec_img{
+    width: 80%;
+}
+
+.secunda{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.dec_tit{
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--branco-principal);
+}
+
+
+
+#quintal{
+    margin-left: 180px;
+    width: 388.5px;
+    height: 291px;
+
+}
+
+.personas{
+    text-align: center;
+}
+
+.persona_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.persona_tit{
+    font-size: 40px;
+    color: var(--branco-principal);
+}
+
+.lista_item{
+    font-size: 32;
+    
+}
+
+.rodape{
+    text-align: center;
+    align-items: center;
+}
